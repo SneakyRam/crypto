@@ -1,0 +1,7 @@
+<script>
+p=23; g=5; a=6; b=15;
+f=(x,y)=>Math.pow(x,y)%p;
+A=f(g,a); B=f(g,b);
+document.write("Alice sends A = "+A+"<br>Bob sends B = "+B+
+"<br>Alice key = "+f(B,a)+"<br>Bob key = "+f(A,b));
+</script>
